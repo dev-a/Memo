@@ -4,3 +4,6 @@
 
 ##Se connecter en bash  à un container en fonctionnement
 *docker exec -it [container-id] bash*
+
+##Supprimer tous les reseaux existants(produira des erreurs sur les réseaux en fonctionnement ou ceux interne)
+*docker network rm $(docker network ls -q) *
