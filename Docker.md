@@ -1,5 +1,14 @@
 # Memo docker:
 
+## Table of contents
+- [Arrêter et supprimer tous les conteneurs](#arrêter-et-supprimer-tous-les-conteneurs)
+- [Supprimer tous les conteneurs qui ne sont plus en fonctionnement](#supprimer-tous-les-conteneurs-qui-ne-sont-plus-en-fonctionnement)
+- [Se connecter en bash à un container en fonctionnement](#se-connecter-en-bash-à-un-container-en-fonctionnement)
+- [Supprimer tous les reseaux existants](#supprimer-tous-les-reseaux-existants)
+- [Sous windows gerer les chemins repertoires](#sous-windows-gerer-les-chemins-repertoires)
+- [Utilisation de portainer.io](#utilisation-de-portainerio)
+  - [Lancer portainer](#lancer-portainer)
+
 ## Arrêter et supprimer tous les conteneurs
 *docker rm $(docker ps -aq) -f*
 
