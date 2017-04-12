@@ -2,7 +2,7 @@
 ## Arrêter et supprimer tous les conteneurs
 *docker rm $(docker ps -aq) -f*
 
-## supprimer tous les conteneurs qui ne sont plus en fonctionnement
+## Supprimer tous les conteneurs qui ne sont plus en fonctionnement
 *docker rm $(docker ps -q -f status=exited)*
 
 ## Se connecter en bash  à un container en fonctionnement
