@@ -15,3 +15,7 @@
 
 ## Sous windows gerer les chemins repertoires
 creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
+
+## utilisation de portainer.io
+### lancer portainer 
+*docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer*
