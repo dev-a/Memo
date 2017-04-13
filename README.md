@@ -1,4 +1,4 @@
-# Liste des SheatSheet
+# Liste des Cheatsheets
 - [Mongo](Mongo.md)
 - [Docker](Docker.md)
   - [Arrêter et supprimer tous les conteneurs](Docker.md#arrêter-et-supprimer-tous-les-conteneurs)
