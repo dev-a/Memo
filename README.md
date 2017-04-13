@@ -1,6 +1,6 @@
 # Liste des Cheatsheets
 - [Mongo](Mongo.md)
-  -[Importer un fichier csv dans mongo](Mongo.md#importer-un-fichier-csv-dans-mongo)
+  - [Importer un fichier csv dans mongo](Mongo.md#importer-un-fichier-csv-dans-mongo)
 - [Docker](Docker.md)
   - [Arrêter et supprimer tous les conteneurs](Docker.md#arrêter-et-supprimer-tous-les-conteneurs)
   - [Supprimer tous les conteneurs qui ne sont plus en fonctionnement](Docker.md#supprimer-tous-les-conteneurs-qui-ne-sont-plus-en-fonctionnement)
