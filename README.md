@@ -1,6 +1,5 @@
 # Liste des Cheatsheets
 - [Docker](Docker.md)
-	- [Sommaire](Docker.md#sommaire)
 	- [Arrêter et supprimer tous les conteneurs](Docker.md#arrêter-et-supprimer-tous-les-conteneurs)
 	- [Supprimer tous les conteneurs qui ne sont plus en fonctionnement](Docker.md#supprimer-tous-les-conteneurs-qui-ne-sont-plus-en-fonctionnement)
 	- [Se connecter en bash à un container en fonctionnement](Docker.md#se-connecter-en-bash-à-un-container-en-fonctionnement)
