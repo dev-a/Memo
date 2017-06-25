@@ -18,5 +18,5 @@
 - [R](R.md)
 	- [Selection de variable](R.md#selection-de-variable)
 	- [cheatsheet](R.md#cheatsheet)
-- [php](php.md)
+- [PHP](php.md)
 	- [Utiliser en mode Shell Interactif](php.md#utiliser-en-mode-shell-interactif)
