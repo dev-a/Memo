@@ -16,6 +16,7 @@
 	- [Importer un fichier csv dans mongo](Mongo.md#importer-un-fichier-csv-dans-mongo)
 - [R](R.md)
 	- [Selection de variable](R.md#selection-de-variable)
+	- [Dump d'une variable](R.md#dump-dune-variable)
 	- [cheatsheet](R.md#cheatsheet)
 - [PHP](php.md)
 	- [Utiliser en mode Shell Interactif](php.md#utiliser-en-mode-shell-interactif)
