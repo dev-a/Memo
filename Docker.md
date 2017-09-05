@@ -6,9 +6,10 @@
 - [Se connecter en bash à un container en fonctionnement](#se-connecter-en-bash-à-un-container-en-fonctionnement)
 - [Supprimer tous les reseaux existants](#supprimer-tous-les-reseaux-existants)
 - [Sous windows gerer les chemins repertoires](#sous-windows-gerer-les-chemins-repertoires)
+- [Construire un conteneur "dev-a/mon_nom" depuis un dockerfile dans le repertoire courant](#construire-un-conteneur-dev-amon_nom-depuis-un-dockerfile-dans-le-repertoire-courant)
+- [Nettoyage docker "mode brutus"](#nettoyage-docker-mode-brutus)
 - [Utilisation de portainer.io](#utilisation-de-portainerio)
   - [Lancer portainer](#lancer-portainer)
-
 ---
 ## Arrêter et supprimer tous les conteneurs
 > *docker rm $(docker ps -aq) -f*
