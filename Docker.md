@@ -30,6 +30,16 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 ## Construire un conteneur "dev-a/mon_nom" depuis un dockerfile dans le repertoire courant 
 > docker build -t dev-a/mon_nom .
 
+## Nettoyage docker "mode brutus"
+> sudo systemctl stop docker
+
+> sudo su -
+
+> rm -r /var/lib/docker/
+
+> sudo systemctl start docker
+
+
 ## Utilisation de portainer.io
 ### Lancer portainer 
 > *docker run -d -p 9000:9000 --label appli=portainer -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer*
