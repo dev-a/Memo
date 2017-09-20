@@ -43,4 +43,7 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 
 ## Utilisation de portainer.io
 ### Lancer portainer 
+#### Avec authentication
 > *docker run -d -p 9000:9000 --label appli=portainer -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer*
+#### Sans authentication
+> *docker run -d -p 9000:9000 --label appli=portainer -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer --no-auth*
