@@ -34,7 +34,7 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 ## Construire un conteneur "dev-a/mon_nom" depuis un dockerfile dans le repertoire courant 
 > docker build -t dev-a/mon_nom .
 
-## Nettoyage docker "mode brutus"
+## Nettoyage docker "mode brutus" (des repertoires /var/lib/docker/)
 > sudo systemctl stop docker
 
 > sudo su -
@@ -43,6 +43,8 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 
 > sudo systemctl start docker
 
+
+Voir aussi https://github.com/chadoe/docker-cleanup-volumes
 
 ## Utilisation de portainer.io
 ### Lancer portainer 
