@@ -5,4 +5,8 @@
 > newer_than:1m  -> les messages de moins d'un mois
 
 ## recherche par categorie
-> category:promotions 
+> category:promotions
+
+>category:primary
+
+>category:updates 
