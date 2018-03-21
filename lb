@@ -1,0 +1,3 @@
+	./liquibase --changeLogFile=file --url="jdbc:postgresql://localhost:5432/postgres"  --username=postgres --password=password   update
+  
+  ./liquibase --changeLogFile=file --url="jdbc:postgresql://localhost:5432/postgres"  --username=postgres --password=password   generateChangeLog 
