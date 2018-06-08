@@ -5,3 +5,5 @@ Get-ChildItem -Filter *.zip  | % { $_.FullName } | Split-Path | Get-Unique | % {
 
 ### killer un processus 
 Stop-Process -d 12952 -Confirm:$false
+
+ Get-Process | Where-Object {$_.MainWindowTitle -like "Free *"} | Stop-Process
