@@ -37,8 +37,8 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 ## Nettoyage docker "mode brutus" (des repertoires /var/lib/docker/)
 ```shell
 sudo systemctl stop docker
-sudo su -
-rm -r /var/lib/docker/
+#sudo su -
+sudo rm -r /var/lib/docker/
 sudo systemctl start docker
 ```
 
