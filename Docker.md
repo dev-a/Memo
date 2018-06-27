@@ -35,14 +35,12 @@ creer un fichier .env avec "COMPOSE_CONVERT_WINDOWS_PATHS=1"
 > docker build -t dev-a/mon_nom .
 
 ## Nettoyage docker "mode brutus" (des repertoires /var/lib/docker/)
-> sudo systemctl stop docker
-
-> sudo su -
-
-> rm -r /var/lib/docker/
-
-> sudo systemctl start docker
-
+```shell
+sudo systemctl stop docker
+sudo su -
+rm -r /var/lib/docker/
+sudo systemctl start docker
+```
 
 Voir aussi https://github.com/chadoe/docker-cleanup-volumes
 
