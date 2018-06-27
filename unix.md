@@ -22,3 +22,8 @@ find . -name 'params_tmp.properties' -printf 'rm %h/params_tmp.properties \n' | 
  find $D  -name 'Postgres.properties'  -printf "cp %h/Postgres.properties $D/param.properties\n" | sh
  done
 ```
+
+```shell
+#rechercher les fichiers param.properties et les fusionner dans tmp_merge_param.txt
+ find . -name 'param.properties' -exec cat {} \;  > tmp_merge_param.txt
+ ```
