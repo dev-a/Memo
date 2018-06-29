@@ -1,7 +1,6 @@
 New Shortcut 
 
-space -> (tilde escape /mac: [£`]+ escape    / Windows % +escape
-
+space -> f3
 pie menu -> tab + move mouse
 
 
