@@ -1,6 +1,8 @@
 New Shortcut 
 
-space -> f3
+Operator Search -> f3
+
+
 pie menu -> tab + move mouse
 
 
