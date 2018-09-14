@@ -1,6 +1,6 @@
 New Shortcut 
 
-Operator Search -> f3
+Operator Search -> f3    cmd+F
 
 
 pie menu -> tab + move mouse
