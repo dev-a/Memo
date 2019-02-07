@@ -9,7 +9,7 @@
 
 ```shell
 # on copie de fichier DEV.properties (qui traine et on le mets à la racine)
-find . -name "*.bat" -printf 'cp %h/socle_in/*/contexts/DEV.properties  %h/params_tmp.properties \n' | sh
+find . -name "*.bat" -printf 'cp %h/socle/*/contexts/DEV.properties  %h/params_tmp.properties \n' | sh
 # on remplace par les bonnes valeurs du full_param.properties
 find -name 'params_tmp.properties' -printf $'awk -F= \'NR==FNR{if(length($2)!=0)A[$1]=$2;next}$1 in A{$2=A[$1]}1\' OFS==  ./full_param.properties %h/params_tmp.properties > %h/param.properties\n' | sh
 # on supprime les fichiers temporaires
