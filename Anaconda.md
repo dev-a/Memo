@@ -1,1 +1,2 @@
-source activate Python3
+conda activate Python3
+conda deactivate
