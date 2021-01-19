@@ -1,3 +1,3 @@
-*MS Code Shortcut
+# MS Code Shortcut
 
 dupliquer une ligne : alt+a
