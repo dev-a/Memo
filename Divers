@@ -1,4 +1,7 @@
 # Divers
+## convertir un doc en MD 
+pandoc markdown.docx -f docx -t gfm -o text.md
+
 
 ## notebook
 http://beakernotebook.com
