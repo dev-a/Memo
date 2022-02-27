@@ -3,6 +3,7 @@
 
 # firefox extension
 * https://addons.mozilla.org/fr/firefox/addon/requestcontrol/
+* https://addons.mozilla.org/fr/firefox/addon/alpenglow-dark/
 
 # Android
 * https://github.com/TeamNewPipe/NewPipe/
