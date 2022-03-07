@@ -1,6 +1,6 @@
 # Chrome Extension
 * *https://www.automa.site/*
-* https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog
+* https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog  (DEPRECATED)
 
 # firefox extension
 * https://addons.mozilla.org/fr/firefox/addon/requestcontrol/
