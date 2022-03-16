@@ -13,3 +13,5 @@
 * https://github.com/CatimaLoyalty
 * https://github.com/beemdevelopment/Aegis
 * *https://github.com/jamie-mh/AuthenticatorPro*
+* https://antennapod.org/
+* https://gitlab.com/pardomi/paseo
