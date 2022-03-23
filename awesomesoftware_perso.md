@@ -15,3 +15,7 @@
 * *https://github.com/jamie-mh/AuthenticatorPro*
 * https://antennapod.org/
 * https://gitlab.com/pardomi/paseo
+
+
+# vscode
+* https://www.thunderclient.com/
