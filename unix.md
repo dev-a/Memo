@@ -27,3 +27,13 @@ find . -name 'params_tmp.properties' -printf 'rm %h/params_tmp.properties \n' | 
 #rechercher les fichiers param.properties et les fusionner dans tmp_merge_param.txt
  find . -name 'param.properties' -exec cat {} \;  > tmp_merge_param.txt
  ```
+
+
+## Afficher la date dans le shell
+```shell
+watch -n 1 date
+ ```
+
+```shell
+while true; do clear; date; sleep 1; done
+ ```
