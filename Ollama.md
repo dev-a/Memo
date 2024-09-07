@@ -9,3 +9,6 @@ sudo docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/o
                     "model": "llama3.1",
                     "prompt":"pourquoi le ciel est bleu?"
                   }'
+
+
+https://github.com/open-webui/open-webui
